@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Online Store Business Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="Images/hero.png" class="logo" alt=""></a>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="header-icon">
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+                    <div class="cart-box">
+                        <!--<img src="Images/hero.png" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Earbuds</div>
+                            <div class="cart-price">$78.2</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <i class='bx bxs-trash-alt cart-remove' ></i>-->
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button> 
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3>Discover a world of fresh and vibrant produce, perfect for your healthy grocery shopping.</h3>
+            <h1>Bounty of <span>Nature</span><br>Fresh <span> Fruits </span> and <span> Veggies</span></h1>
+            <p>Explore a bounty of fruits and vegetables, handpicked for your shopping pleasure.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <h1 class="heading">Our<span>Features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/feature1.png" alt="">
+                <h3>Fresh and organic</h3>
+                <p>"Pure goodness, grown with care."<br>"Nature's best, straight to your plate."</p>
+            </div>
+            <div class="box">
+                <img src="Images/feature2.png" alt="">
+                <h3>Free Delivery</h3>
+                <p>"Enjoy free, doorstep delivery."<br>"Savor the taste of fresh, organic produce."</p>
+            </div>
+            <div class="box">
+                <img src="Images/feature3.png" alt="">
+                <h3>Easy Payments</h3>
+                <p>"Shop with confidence, knowing your order will be delivered to your doorstep with care."</p>
+            </div>
+        </div>
+    </section>
+    <section class="products" id="products">
+        <h1 class="heading">Our<span>Products</span></h1>
+        <div class="product-slider">
+            <div class="wrapper">
+                <div class="box">
+                    <img src="Images/product1.png" alt="" class="product-img">
+                    <h3 class="product-title">Red Cherries</h3>
+                    <div class="price">$1.8</div>
+                    <p>Sweet and tangy, perfect for snacking.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <a href="#" class="btn add-cart-button">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="Images/product2.png" alt="" class="product-img">
+                    <h3 class="product-title">Fresh Broccoli</h3>
+                    <div class="price">$0.5</div>
+                    <p>Nutrient-rich and earthy.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <a href="#" class="btn add-cart-button">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="Images/product3.png" alt="" class="product-img">
+                    <h3 class="product-title">Sweet Corn</h3>
+                    <div class="price">$0.4</div>
+                    <p>Naturally sweet and deliciously crisp.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <a href="#" class="btn add-cart-button">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="Images/product4.png" alt="" class="product-img">
+                    <h3 class="product-title">Dragon Fruit</h3>
+                    <div class="price">$0.8</div>
+                    <p>Vibrant, subtly sweet, and healthy.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <a href="#" class="btn add-cart-button">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="Images/product5.png" alt="" class="product-img">
+                    <h3 class="product-title">Ladies Finger</h3>
+                    <div class="price">$0.6</div>
+                    <p>Tender and flavorful green goodness.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <a href="#" class="btn add-cart-button">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="Images/product6.png" alt="" class="product-img">
+                    <h3 class="product-title">Fresh Papaya</h3>
+                    <div class="price">$0.7</div>
+                    <p>Tropical sweetness in every bite.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <a href="#" class="btn add-cart-button">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="Images/product7.png" alt="" class="product-img">
+                    <h3 class="product-title">Fresh Cabbage</h3>
+                    <div class="price">$0.3</div>
+                    <p>Crisp and versatile for various dishes.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <a href="#" class="btn add-cart-button">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="Images/product8.png" alt="" class="product-img">
+                    <h3 class="product-title">Pomegranate</h3>
+                    <div class="price">$1</div>
+                    <p>Sweet, tart, and rich in antioxidants.</p>
+                    <div class="stars">
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <a href="#" class="btn add-cart-button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Images/hero.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About Us-Your Fresh Grocery Destination</h2>
+            <p>Welcome to <strong>Fiona's Fresh Mart</strong>, where quality meets convenience.
+                 We take pride in offering you the freshest fruits and vegetables, sourced directly from local farms to your doorstep. 
+                Our commitment to providing top-notch products, excellent service, and a seamless shopping experience sets us apart.</p>
+            <p>Our journey began with a passion for fresh, healthy food and a desire to make it accessible to everyone. 
+                We believe in the power of nature's goodness, and our team works diligently to handpick the finest produce for you.</p>
+            <p>We invite you to be a part of our mission to bring health and wellness to your home through fresh, locally sourced groceries.
+                 Shop with Fiona's Fresh Mart and experience the difference of farm-fresh produce and unparalleled service.</p>
+            <p>Thank you for choosing Fiona's Fresh Mart as your grocery partner.
+                 We look forward to serving you and making your grocery shopping a delightful experience.</p>
+        </div>
+    </section>
+    <section class="footer" id="contact">
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/hero.png" class="logo" alt="">
+                <p>Fiona's Fresh Mart where quality meets convenience.
+                    <br>We take pride in offering you the freshest fruits and vegetables.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="fab fa-github"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i>+8217731050</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i>fionaaranhacks593@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>Mangalore, Karnataka, India - 575001</a>
+            <div>
+        </div>
+        <div class="credit">Created by <span> Fiona </span> |All rights reserved</div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
